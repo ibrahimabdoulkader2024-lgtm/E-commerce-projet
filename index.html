@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ####################################### -->
+    <!-- Navigation -->
+    <!-- ####################################### -->
+
+    <nav>
+        <a href="#" class="logo">E<span>SHOP</span></a>
+        <ul class="navigation">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#news">Nouveautés</a></li>
+            <li><a href="#products">Produits</a></li>
+            <li><a href="#reviews">Avis</a></li>
+        </ul>
+        <div class="navigation-icones">
+            <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+            <i id="cart-icon" class="fa-solid fa-cart-shopping"></i>
+            <i id="user-icon" class="fa-solid fa-user"></i>
+            <i id="burger-menu" class="fa-solid fa-bars"></i>
+        </div>
+    
+        <!-- Recherche -->
+        <div class="search-container" >
+            <input type="text" placeholder="Que recherchez-vous ?">
+        </div>
+
+     <!-- Panier -->
+      <div class="cart-container">
+
+        <div class="cart-card">
+            <img src="im2.png" alt="">
+            <div class="cart-text">
+                <h3>T-shirt 12A</h3>
+                <span>30F</span>
+                <span>1x</span>
+            </div>
+            <i  class="fa-solid fa-trash"></i>
+        </div>
+
+        <div class="cart-card">
+            <img src="im2.png" alt="">
+            <div class="cart-text">
+                <h3>T-shirt 16A</h3>
+                <span>25F</span>
+                <span>1x</span>
+            </div>
+            <i  class="fa-solid fa-trash"></i>
+
+        </div>
+        <h2>Total : 55F</h2>
+        <a href="#" class="btn">Voir panier</a>
+      </div>
+
+      <!-- Compte -->
+       <div class="user-container">
+        <h2>Connectez-vous</h2>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Mot de passe">
+        <input class="btn-user" type="submit" value="connexion">
+        <p>Mot de passe oublié <a href="#Redefinir mot de passe"></a></p>
+        <p>Pas de compte? <a href="#">Créer un compte</a></p>
+       </div>
+    </nav>   
+    <!-- ####################################### -->
+    <!-- Home -->
+    <!-- ####################################### -->
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <span>E-commerce</span>
+            <h1>Tendance et Tranquillité</h1>
+            <a href="#" class="btn">En savoir plus</a>
+        </div>
+        <div class="home-img">
+            <img src="PRES.png" alt="">
+        </div>
+    </section>
+
+    <!-- ####################################### -->
+    <!-- News -->
+    <!-- ####################################### -->
+
+    <section id="news" class="news">
+        <div class="section-heading">
+            <h2>Nouvelle <span>Arrivage</span></h2>
+        </div>
+        <div class="news-cont swiper">
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide box">
+                    <img src="S5.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Ajouter au panier</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="S3.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Ajouter au panier</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="S3.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Ajouter au panier</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="S5.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Ajouter au panier</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="S3.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Ajouter au panier</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="S5.jpg" alt="">
+                    <div class="content">
+                        <a href="#" class="btn">Ajouter au panier</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+         <!-- ####################################### -->
+    <!-- Products -->
+    <!-- ####################################### -->
+
+    <section class="products" id="products">
+        <div class="section-heading">
+            <h2>Nos <span>Produits</span></h2>
+        </div>
+        <div class="products-container">
+
+            <div class="product-box">
+                <img src="S8.jpg" alt="">
+                <div class="product-box-content">
+                    <h2>T-shirt</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>25€</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="S8.jpg" alt="">
+                <div class="product-box-content">
+                    <h2>T-shirt</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>25€</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="S8.jpg" alt="">
+                <div class="product-box-content">
+                    <h2>T-shirt</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>25€</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="S8.jpg" alt="">
+                <div class="product-box-content">
+                    <h2>T-shirt</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>25€</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="S8.jpg" alt="">
+                <div class="product-box-content">
+                    <h2>T-shirt</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>25€</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            <div class="product-box">
+                <img src="S8.jpg" alt="">
+                <div class="product-box-content">
+                    <h2>T-shirt</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>25€</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ####################################### -->
+    <!-- Les avis -->
+    <!-- ####################################### -->
+    <section class="reviews" id="reviews">
+        <div class="section-heading">
+            <h2>Avis <span>Client</span></h2>
+        </div>
+        <div class="reviews-container">
+
+            <div class="reviews-box">
+                <img src="S1.jpg" alt="">
+                <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eaque doloremque quos, totam quaerat sed.</p>
+                <h2>Williams Hooks</h2>
+            </div>
+            <div class="reviews-box">
+                <img src="S2.jpg" alt="">
+                <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eaque doloremque quos, totam quaerat sed.</p>
+                <h2>Williams Hooks</h2>
+            </div>
+            <div class="reviews-box">
+                <img src="S3.jpg" alt="">
+                <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eaque doloremque quos, totam quaerat sed.</p>
+                <h2>Williams Hooks</h2>
+            </div>
+            
+            <div class="reviews-box">
+                <img src="S5.jpg" alt="">
+                <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eaque doloremque quos, totam quaerat sed.</p>
+                <h2>Williams Hooks</h2>
+            </div>
+            <div class="reviews-box">
+                <img src="S4.jpg" alt="">
+                <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eaque doloremque quos, totam quaerat sed.</p>
+                <h2>Williams Hooks</h2>
+            </div>    
+        </div>
+    </section>
+
+
+    <!-- ####################################### -->
+    <!-- Footer -->
+    <!-- ####################################### -->
+
+    <footer>
+        <div class="footer-box">
+            <h2>ESHOP</h2>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h2>Formation</h2>
+            <li><a href="#">Condition de vente</a></li>
+            <li><a href="#">Mension légale</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Nous contacter</a></li>
+        </div>
+        <div class="footer-box">
+            <h2>Nos locaux</h2>
+            <li><a href="#">France</a></li>
+            <li><a href="#">Algérie</a></li>
+            <li><a href="#">Italie</a></li>
+            <li><a href="#">Canada</a></li>
+        </div>
+        <div class="footer-box">
+            <h2>Payements</h2>
+            <div class="payement">
+                <img src="images (3).png" alt="">
+                <img src="images (36).jpeg" alt="">
+                <img src="images (2).png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <div class="copy">
+        <p>&copy; La Minute De Code -tous droits réservés-2026</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
